@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>TreniBoolean</h1>
+    <div id="portaleBiglietto">
+        <header>
+            <h1>TreniBoolean</h1>
+            <p>I treni per i programmatori che arrivano sempre putuali. <br> Vero O Falso?</p>
+        </header>
+        <main class="flex container">
+            <div class="box">
+                <h3>Quanti km devi percorrere?</h3>
+                <p>I km che devi percorrere sono: <span id="km"></span></p>
+            </div class="box">
+            <div class="box">
+                <h3>Seleziona la tua fascia di età</h3>
+                <p>La tua età selezionata è di: <span id="età"></span></p> 
+            </div>
+            <div class="box">
+                <h2>Hai diritto allo sconto del:<span id="sconto"><span></h2>
+            </div>
+            <div class="box">
+                <h3>PREZZO TOTALE: <span id="prezzoTotale"></span><span id="myeuro">&euro;</span></h3>
+            </div>
+        </main>
+    </div>
+
 
 
 
 
     <script src="./js/script.js"></script>
 </body>
+
 </html>
